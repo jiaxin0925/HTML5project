@@ -1,0 +1,7 @@
+<div>
+    <ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true" pager-click="goTo(index)" slide-interval="1000">
+        <ion-slide ng-repeat="val in pro.value">
+            <img class="img" ng-src="{{val.img}}" alt="">
+        </ion-slide>
+    </ion-slide-box>
+</div>
